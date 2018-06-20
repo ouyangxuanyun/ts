@@ -1,5 +1,6 @@
-function greeter(person) {
-    return "Hello, " + person;
+function printLabel(labelledObj) {
+    console.log(labelledObj.label);
 }
-var user = [0, 1, 2];
-var result = greeter(user);
+var myObj = { size: 10, label: "Size 10 Object" };
+printLabel(myObj);
+//# sourceMappingURL=greeter.js.map
